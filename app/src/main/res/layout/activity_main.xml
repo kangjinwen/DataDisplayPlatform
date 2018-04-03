@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="kunlunengine.com.datadisplayplatform.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <!--<Button-->
+            <!--android:id="@+id/btn_start"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="启动服务"-->
+            <!--android:onClick="onClick"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_white"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="跳转自启动管理"-->
+            <!--android:onClick="onClick"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_stop"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="停止服务"-->
+            <!--android:onClick="onClick"/>-->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            ></android.support.v4.view.ViewPager>
+
+        <kunlunengine.com.datadisplayplatform.bottombar.BottomBarLayout
+            android:id="@+id/bbl"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@color/tab_gb"
+            >
+
+            <kunlunengine.com.datadisplayplatform.bottombar.BottomBarItem
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:iconNormal="@mipmap/tab_home_normal"
+                app:iconSelected="@mipmap/tab_home_selected"
+                app:itemText="首页"
+                app:textColorNormal="@color/tab_normal_color"
+                app:textColorSelected="@color/tab_selected_color"
+                app:itemTextSize="8sp"
+                app:itemMarginTop="-5dp"
+                app:openTouchBg="true"
+                app:touchDrawable="@drawable/selector_bg"
+                />
+
+            <kunlunengine.com.datadisplayplatform.bottombar.BottomBarItem
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:iconNormal="@mipmap/tab_video_normal"
+                app:iconSelected="@mipmap/tab_video_selected"
+                app:itemText="地图"
+                app:textColorNormal="@color/tab_normal_color"
+                app:textColorSelected="@color/tab_selected_color"
+                app:itemTextSize="8sp"
+                app:itemMarginTop="-5dp"
+                app:openTouchBg="true"
+                app:unreadThreshold="999"
+                app:touchDrawable="@drawable/selector_bg"
+                />
+
+            <kunlunengine.com.datadisplayplatform.bottombar.BottomBarItem
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:iconNormal="@mipmap/tab_me_normal"
+                app:iconSelected="@mipmap/tab_me_selected"
+                app:itemText="我的"
+                app:textColorNormal="@color/tab_normal_color"
+                app:textColorSelected="@color/tab_selected_color"
+                app:itemTextSize="8sp"
+                app:itemMarginTop="-5dp"
+                app:openTouchBg="true"
+                app:touchDrawable="@drawable/selector_bg"
+                />
+
+        </kunlunengine.com.datadisplayplatform.bottombar.BottomBarLayout>
+    </LinearLayout>
+
+</LinearLayout>

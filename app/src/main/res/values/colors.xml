@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="XFrame_darker_gray">#aaaaaa</color>
+    <color name="XFrame_white">#ffffff</color>
+    <color name="XFrame_text_gray">#8a8a8a</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="XFrame_loading_dialog_message">#595959</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="select_color">#2e2e32</color>
+    <color name="red">#ff0000</color>
+    <color name="selector_grey">#DDDDDD</color>
+    <color name="tab_gb">#F3F5F4</color>
+    <color name="tab_normal_color">#515051</color>
+    <color name="tab_selected_color">#D33D3C</color>
+    <color name="shenlan">#3A5FCD</color>
+</resources>

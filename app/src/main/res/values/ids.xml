@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="xstatusbar_fake_status_bar_view" />
+    <item type="id" name="xstatusbar_translucent_view" />
+    <item type="id" name="xloading_retry" />
+    <item name="web_parent_layout_id" type="id"></item>
+    <item name="agentweb_webview_id" type="id"></item>
+    <item name="mainframe_error_viewsub_id" type="id"></item>
+    <item name="mainframe_error_container_id" type="id"></item>
+
+    <item name="bannerContainer" type="id"/>
+    <item name="bannerViewPager" type="id"/>
+    <item name="circleIndicator" type="id"/>
+    <item name="numIndicator" type="id"/>
+    <item name="titleView" type="id"/>
+    <item name="bannerTitle" type="id"/>
+    <item name="numIndicatorInside" type="id"/>
+    <item name="indicatorInside" type="id"/>
+    <item name="bannerDefaultImage" type="id"/>
+</resources>
