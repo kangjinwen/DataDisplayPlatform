@@ -1,4 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="actionActivity" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+    </style>
 
     <style name="loading_dialog" parent="android:Theme.Dialog">
         <item name="android:windowIsFloating">true</item>
@@ -22,9 +25,7 @@
         <item name="android:paddingLeft">@dimen/XFrame_spacing_large</item>
         <item name="android:paddingRight">@dimen/XFrame_spacing_large</item>
     </style>
-    <style name="actionActivity" parent="@android:style/Theme.Translucent.NoTitleBar">
-        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
-    </style>
+d
     <style name="push_style">
         <item name="android:hint">@string/style_hint</item>
         <item name="android:inputType">number</item>
@@ -44,8 +45,8 @@
     </style>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
     <!--<style name="AppTheme" parent="AppBaseTheme">-->
-        <!--<item name="windowActionBar">false</item>-->
-        <!--<item name="windowNoTitle">true</item>-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
     <!--</style>-->
 
     <style name="toolBar">

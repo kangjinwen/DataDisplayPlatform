@@ -14,4 +14,9 @@
     <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
     <string name="logining">程序在后台执行, 请查看日志！</string>
     <string name="setting_su">设置成功</string>
+    <string name="xloading_dialog_message">正在加載</string>
+    <string name="xloading_empty_text">空文本</string>
+    <string name="xloading_error_text">加載失敗,請稍後重試</string>
+    <string name="xloading_no_network_text">無網絡請檢查你的鏈接</string>
+    <string name="xloading_retry_text">請重試</string>
 </resources>

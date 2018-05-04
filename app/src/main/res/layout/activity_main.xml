@@ -31,13 +31,18 @@
             <!--android:layout_height="wrap_content"-->
             <!--android:text="停止服务"-->
             <!--android:onClick="onClick"/>-->
-        <android.support.v4.view.ViewPager
-            android:id="@+id/vp_content"
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/vp_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--&gt;</android.support.v4.view.ViewPager>-->
+        <FrameLayout
+            android:id="@+id/fl_content"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            ></android.support.v4.view.ViewPager>
-
+            />
         <kunlunengine.com.datadisplayplatform.bottombar.BottomBarLayout
             android:id="@+id/bbl"
             android:layout_width="match_parent"

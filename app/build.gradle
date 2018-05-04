@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'kunlun'
+            keyPassword 'kunlun'
+            storeFile file('D:/App/DataDisplayPlatform.jks')
+            storePassword 'kunlun'
+        }
+    }
     compileSdkVersion 26
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -20,6 +28,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main {
+            jniLibs.srcDir 'libs'
+        }
+    }
 }
 
 dependencies {
@@ -37,6 +50,8 @@ dependencies {
     implementation files('libs/jcore-android-1.1.9.jar')
     implementation files('libs/jpush-android-3.1.1.jar')
     compile 'com.github.bumptech.glide:glide:3.7.0'
-//    implementation 'com.github.bumptech.glide:glide:4.5.0'
-//    annotationProcessor 'com.github.bumptech.glide:compiler:4.5.0'
+    //    implementation 'com.github.bumptech.glide:glide:4.5.0'
+    //    annotationProcessor 'com.github.bumptech.glide:compiler:4.5.0'
+    implementation files('libs/BaiduLBS_Android.jar')
+    implementation files('libs/IndoorscapeAlbumPlugin.jar')
 }
